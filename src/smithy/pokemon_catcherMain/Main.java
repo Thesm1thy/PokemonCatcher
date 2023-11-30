@@ -576,7 +576,7 @@ public class Main {
 
 			PokemonDao.addPokemonByAdmin(pokemon_id, pokemon_name, pokemon_type1, pokemon_type2);
 
-			System.out.println("Successfully added " + pokemon_name + " to the PokeDex.");
+			System.out.println(COLOR_GREEN + "Successfully added " + pokemon_name + " to the PokeDex." + COLOR_RESET);
 
 		} catch (InputMismatchException e) {
 			System.out.println(COLOR_RED + "Invalid Input. Please try again." + COLOR_RESET);
