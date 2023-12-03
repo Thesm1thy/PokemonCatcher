@@ -88,7 +88,7 @@ public class PokemonDaoImpl implements PokemonDao {
 		List<Pokemon> spawnedPokemonList = new ArrayList<>();
 		Random rand = new Random();
 		//random pokemon 1-151
-		int randInt = rand.nextInt(71);
+		int randInt = rand.nextInt(151);
 		
 		
 		try
